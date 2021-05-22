@@ -1,0 +1,25 @@
+body {
+    text-align:center;
+    background:linear-gradient(#E91E63,#80DEEA,#DD2C00);
+        background-repeat:twice-repeat;
+}
+.line {
+    height:7px;
+    background-color:darkmagenta;
+    width:80px;
+    margin:8px auto;
+}
+img {
+    width:350px;
+    transition:transform .2s;
+}
+img:hover {
+    transform:scale(0.9);
+}
+h1 {
+    font-size:50px;
+    font-variant:small-caps;
+    font-weight:bold;
+    color:blue;
+    font-style:fantasy;
+}
